@@ -1,7 +1,7 @@
 import java.io.*;
 import java.net.*;
 import java.io.BufferedReader;
-import java.io.InputStreamReader;  
+import java.io.InputStreamReader;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -20,7 +20,7 @@ public class KnowledgeGraph {
             	if (args[2].equals("-q")){
             		String query = args[3];
             		if (args [5].equals("infobox")){
-            			//Diwakar: call your code here
+	                        FreeBase.query(query,apikey);
             		}
             		if (args [5].equals( "question")){
             			part2.main(query,apikey);
@@ -41,8 +41,7 @@ public class KnowledgeGraph {
                          //for infobox
                          if (args[5] .equals( "infobox")){
                         	 while ((tempString = reader.readLine()) != null) {
-                            	//Diwakar: call your code here and provide it the right input
-                                //tempString holds each line from file
+      	                                FreeBase.query(tempString,apikey);
                         	 }
                          }
                          if (args[5] .equals( "question")){
@@ -80,7 +79,7 @@ public class KnowledgeGraph {
             			if (text.startsWith("who")){
                 			part2.main(text,apikey);
             			} else{
-            				//Diwakar: call your code here and provide it the right kind of input
+            				FreeBase.query(text,apikey);
 
             			}
             		}
