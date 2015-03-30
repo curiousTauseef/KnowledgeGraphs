@@ -192,7 +192,10 @@ public class FreeBase {
             if (doBreak)
                 break;
         }
-
+        if (entity==null) {
+            System.out.println("No results found!! Exiting!!");
+            System.exit(0);
+        }
         init();
         Map<String,String> infoItems = new LinkedHashMap<String, String>();
         infoItems.put("Name",JsonPath.read(entity,"$.name").toString());
