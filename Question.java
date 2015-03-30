@@ -38,19 +38,6 @@ public class Question {
 				userQuery = userQuery.substring(12);
 			}
 
-			//print for interactive opt
-			if (interactive){
-				System.out.println(" "+"--------------------------------------------------------------------------------------------------");
-				
-				String namespace = AlignFit(40,"");
-				System.out.printf( "|" + namespace );
-				String q = "Who created " + userQuery + "?";
-				
-				q = AlignFit(58,q);
-				System.out.printf(q +"|");
-				System.out.println();
-				System.out.println(" "+"--------------------------------------------------------------------------------------------------");
-			}
 
 			HttpTransport httpTransport = new NetHttpTransport();
 			HttpRequestFactory requestFactory = httpTransport.createRequestFactory();
@@ -68,7 +55,7 @@ public class Question {
 			JSONObject response = (JSONObject)parser.parse(httpResponse.parseAsString());
 			JSONArray authors = (JSONArray)response.get("result");
 			
-			Map<String, String> entityList = new TreeMap<String, String>();
+			Map<String, ArrayList<String>> entityList = new TreeMap<String, ArrayList<String>>();
 			parseResults (authors, entityList); 
 			
 			//query for organizations
@@ -85,35 +72,63 @@ public class Question {
 			
 			parseResults (businessPersons, entityList); 
 
+			//print for interactive opt
+			if (interactive){
+				System.out.println(" "+"--------------------------------------------------------------------------------------------------");
+				
+				String namespace = AlignFit(40,"");
+				System.out.printf( "|" + namespace );
+				String q = "Who created " + userQuery + "?";
+				
+				q = AlignFit(58,q);
+				System.out.printf(q +"|");
+				System.out.println();
+				System.out.println(" "+"--------------------------------------------------------------------------------------------------");
+			}
+
 			//print results
-			if (!interactive){
-				if (entityList.isEmpty()){
-					System.out.println("it seems no one created [" + userQuery + "]!!!");
-				} else {
+			if (entityList.isEmpty()) {
+				System.out.println("it seems no one created [" + userQuery + "]!!!");
+			} else {
+				if (!interactive){
 					int i = 0;
-					for(Entry<String, String> elem : entityList.entrySet()){
+					for(Entry<String, ArrayList<String>> elem : entityList.entrySet()){
 						i++;
-						System.out.println(i+". "+elem.getValue());
+						ArrayList<String> set = elem.getValue();
+
+						System.out.println(i+". "+ elem.getKey() + " (as "+set.get(set.size()-1)+") created "+ regOutput(set));
+					}
+				} else {
+					for(Entry<String, ArrayList<String>> elem : entityList.entrySet()){
+						ArrayList<String> set = elem.getValue();
+						int len = set.size();
+						String[] book = new String[len-1];
+						
+						for(int l=0; l<len-1; l++){
+							book[l] = set.get(l);
+						}
+						printInteractive(elem.getKey(),set.get(len-1), book);
 					}
 				}
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		System.out.println("\n");
 	}
 
-	private void parseResults (JSONArray queryResults, Map<String, String> entityList) {
-		for (int j = 0; j < queryResults.size(); j++/*JSONObject result : authors*/) {
+	private void parseResults (JSONArray queryResults, Map<String, ArrayList<String>> entityList) {
+		for (int j = 0; j < queryResults.size(); j++) {
 				JSONObject result = (JSONObject)queryResults.get(j);
 				String name = JsonPath.read(result,"$.name").toString();
-				ArrayList<String> creations = new ArrayList<String>();
+				ArrayList<String> creationList = new ArrayList<String>();
 				String type = null;
 				
 				if(JsonPath.read(result,"$.type").toString().contains("/book/author")){
 					type = "Author";
 					int count = StringUtils.countMatches(JsonPath.read(result,"$./book/author/works_written").toString(), "a:name");
 					for(int i=0; i<count; i++){
-						creations.add(JsonPath.read(result,"$./book/author/works_written.a:name["+i+"]").toString());
+						creationList.add(JsonPath.read(result,"$./book/author/works_written.a:name["+i+"]").toString());
 					}
 				}
 
@@ -121,35 +136,30 @@ public class Question {
 					type = "Businessperson";
 					int count = StringUtils.countMatches(JsonPath.read(result,"$./organization/organization_founder/organizations_founded").toString(), "a:name");
 					for(int i=0; i<count; i++){
-						creations.add(JsonPath.read(result,"$./organization/organization_founder/organizations_founded.a:name["+i+"]").toString());
+						creationList.add(JsonPath.read(result,"$./organization/organization_founder/organizations_founded.a:name["+i+"]").toString());
 					}
 				}
 
-				//compressing their creations
-				String creationStr = "";
-				for(int i=0; i<creations.size(); i++){
-					if(i==0){
-						creationStr = creationStr +"<"+ creations.get(i) + ">";
-					}else if(creations.size()>2 && i==creations.size()-1){
-						creationStr = creationStr + ", and <" + creations.get(i) +">";
-					}else if(creations.size()==2 && i==creations.size()-1){
-						creationStr = creationStr + " and <" + creations.get(i) +">";
-					}else{
-						creationStr = creationStr + ", <" + creations.get(i) + ">";
-					}
-				}
-				//for interactive opt
-				String[] creationbook = new String[creations.size()];
-				for(int l=0; l<creationbook.length; l++){
-					creationbook[l] = creations.get(l);
-				}
-				entityList.put(name, name + " (as "+type+") created "+creationStr);
-				if (interactive){
-					printInteractive(name,type,creationbook);
-				}
+				creationList.add(type); // append type at the end
+				entityList.put(name, creationList);
 			}
 	}
-	private static void printInteractive(String name,String type,String[] creation ){
+
+	private static String regOutput (ArrayList<String> set) {
+		String setStr = "";
+		for(int i=0; i<set.size()-1; i++){
+			if(i==0){
+				setStr = setStr +"<"+ set.get(i) + ">";
+			}else if(set.size()>=3 && i==set.size()-2){
+				setStr = setStr + " and <" + set.get(i) +">";
+			}else{
+				setStr = setStr + ", <" + set.get(i) + ">";
+			}
+		}
+		return (setStr);
+	}
+
+	private static void printInteractive(String name, String type, String[] creation ){
 		 String Rowname0 = AlignFit(30,name+ ":");
 	     System.out.printf("|" + Rowname0);
 	     String Rowname01 = AlignFit(30,"As");

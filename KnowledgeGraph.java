@@ -27,7 +27,8 @@ public class KnowledgeGraph {
                 			part2.main(query,apikey);
                 		}
                 	}
-                	 //option2
+                	
+                    // File Options
                 	if (args[2].equals( "-f")){
                     	BufferedReader reader = null;
                     	String fileName = args[3];
