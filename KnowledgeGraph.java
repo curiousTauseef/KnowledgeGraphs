@@ -16,55 +16,56 @@ public class KnowledgeGraph {
             	 Question part2 = new Question();
             	 
             	 int length = args.length;
-            	 
-            	 if (length > 2 ) {
-                	if (args[2].equals("-q")){
-                		String query = args[3];
-                		if (args [5].equals("infobox")){
-                			//Diwakar: call your code here
-                		}
-                		if (args [5].equals( "question")){
-                			part2.main(query,apikey);
-                		}
-                	}
-                	
-                    // File Options
-                	if (args[2].equals( "-f")){
-                    	BufferedReader reader = null;
-                    	String fileName = args[3];
-                    	try {
-                    		 //read queries from the file
-                    		 File file = new File(fileName);
-                             reader = new BufferedReader(new FileReader( file ) );
-                             
-                    		 String tempString = null;
-                             
-                             //for infobox
-                             if (args[5] .equals( "infobox")){
-                            	 while ((tempString = reader.readLine()) != null) {
-                                	//Diwakar: call your code here
-                            	 }
+            	
+            	if (args[2].equals("-q")){
+            		String query = args[3];
+            		if (args [5].equals("infobox")){
+            			//Diwakar: call your code here
+            		}
+            		if (args [5].equals( "question")){
+            			part2.main(query,apikey);
+            		}
+            	}
+            	
+                // File Options
+            	if (args[2].equals( "-f")){
+                	BufferedReader reader = null;
+                	String fileName = args[3];
+                	try {
+                		 //read queries from the file
+                		 File file = new File(fileName);
+                         reader = new BufferedReader(new FileReader( file ) );
+                         
+                		 String tempString = null;
+                         
+                         //for infobox
+                         if (args[5] .equals( "infobox")){
+                        	 while ((tempString = reader.readLine()) != null) {
+                            	//Diwakar: call your code here and provide it the right input
+                                //tempString holds each line from file
+                        	 }
+                         }
+                         if (args[5] .equals( "question")){
+                             while ((tempString = reader.readLine()) != null) {
+                            	System.out.println ("Question: "+ tempString);
+                            	System.out.println ();
+                     			part2.main(tempString,apikey);
                              }
-                             if (args[5] .equals( "question")){
-                                 while ((tempString = reader.readLine()) != null) {
-                                	System.out.println ("Question: "+ tempString);
-                                	System.out.println ();
-                         			part2.main(tempString,apikey);
-                                 }
+                         }
+                         reader.close();
+                    } catch (IOException e) {
+                         e.printStackTrace();
+                    } finally {
+                         if (reader != null) {
+                             try {
+                                 reader.close();
+                             } catch (IOException e1) {
                              }
-                             reader.close();
-                        } catch (IOException e) {
-                             e.printStackTrace();
-                        } finally {
-                             if (reader != null) {
-                                 try {
-                                     reader.close();
-                                 } catch (IOException e1) {
-                                 }
-                             }
-                        }
-                	}
-                } else {
+                         }
+                    }
+            	
+                }
+                if (args[2].equals( "")) {
             		System.out.println("Welcome to infobox creator using Freebase knowledge graph.");
             		System.out.println("Feel curious? Start exploring...");
             		part2.interactive = true;
@@ -79,7 +80,8 @@ public class KnowledgeGraph {
             			if (text.startsWith("who")){
                 			part2.main(text,apikey);
             			} else{
-            				//Diwakar: call your code here
+            				//Diwakar: call your code here and provide it the right kind of input
+
             			}
             		}
             	}
