@@ -160,28 +160,28 @@ public class Question {
 	}
 
 	private static void printInteractive(String name, String type, String[] creation ){
-		 String Rowname0 = AlignFit(30,name+ ":");
-	     System.out.printf("|" + Rowname0);
-	     String Rowname01 = AlignFit(30,"As");
-	     System.out.printf("|" + Rowname01);   
-	     String Rowname02 = AlignFit(37,"Creation");
-	     System.out.printf("|"+Rowname02 + "|" );  
+		 String row0 = AlignFit(30,name+ ":");
+	     System.out.printf("|" + row0);
+	     String row1 = AlignFit(30,"As");
+	     System.out.printf("|" + row1);   
+	     String row2 = AlignFit(37,"Creation");
+	     System.out.printf("|"+row2 + "|" );  
 	     System.out.println();
-	     String Rowname03 = AlignFit(30,"");
-	     System.out.printf("|"+ Rowname03);
+	     String row3 = AlignFit(30,"");
+	     System.out.printf("|"+ row3);
 	     System.out.printf(" "+"-------------------------------------------------------------------");
 	     System.out.println();
-	     for (int leng = 0;leng< creation .length;leng++){
-	        	String Rowname1 = AlignFit(30,"");
-	            System.out.printf("|" + Rowname1);
+	     for (int len = 0;len < creation.length; len++){
+	        	String row = AlignFit(30,"");
+	            System.out.printf("|" + row);
 	            String type1;
-	            if (leng == 0) {
-	            type1 = AlignFit(30,type);}
+	            if (len == 0) {
+	            	type1 = AlignFit(30,type);}
 	            else{
 	            	type1 = AlignFit(30,"");
 	            }
 	            System.out.printf("|"+ type1);
-	            String creation1 = AlignFit(37,creation[leng]);
+	            String creation1 = AlignFit(37,creation[len]);
 	            System.out.printf("|"+creation1 + "|" );
 	            System.out.println();
 	        }
