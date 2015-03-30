@@ -1,0 +1,51 @@
+ ------------------------------------------------------------------------------------------------------------------------
+|                                                           Miami Heat(Sports Team)                                       |
+ ------------------------------------------------------------------------------------------------------------------------
+| Name:             Miami Heat                                                                                           |
+ ------------------------------------------------------------------------------------------------------------------------
+| Description:      The Miami Heat are an American professional basketball team based in Miami, Florida. The team is a m |
+|                   ember of the Southeast Division in the Eastern Conference of the National Basketball Association. Th |
+|                   ey play their home games at the American Airlines Arena in Downtown Miami. The team owner is Micky A |
+|                   rison, who also owns cruise-ship giant Carnival Corporation. The team president and de facto general |
+|                    manager is Pat Riley, and the head coach is Erik Spoelstra. The mascot of the team is Burnie, an an |
+|                   thropomorphic fireball.Formed in 1988 as one of the NBA's four expansion franchises, the Heat have w |
+|                   on three league championships, five conference titles and 11 division titles. From February 3 to Mar |
+|                   ch 27, 2013, the Heat won 27 games in a row, the second-longest streak in NBA history. In 2013, Forb |
+|                   es valued the Heat at $625 million, sixth-most-valuable among NBA franchises.The Heat are not relate |
+|                   d to the Miami Floridians, an ABA team in the early 1970s, although the Heat have occasionally paid  |
+|                   tribute to the older franchise by wearing a replica version of the Floridians' uniforms for the NBA' |
+|                   s "Hardwood Classics Nights" during the 2005–06 and 2011–12 seasons                                  |
+ ------------------------------------------------------------------------------------------------------------------------
+| Championship:     2006 NBA Finals                                                                                      |
+|                   2012 NBA Finals                                                                                      |
+|                   2013 NBA Finals                                                                                      |
+ ------------------------------------------------------------------------------------------------------------------------
+| Official Website: http://www.nba.com/heat/                                                                             |
+ ------------------------------------------------------------------------------------------------------------------------
+| Sport:            Basketball                                                                                           |
+ ------------------------------------------------------------------------------------------------------------------------
+| Founded:          1988                                                                                                 |
+ ------------------------------------------------------------------------------------------------------------------------
+| Arena:            American Airlines Arena                                                                              |
+ ------------------------------------------------------------------------------------------------------------------------
+| League:           National Basketball Association                                                                      |
+ ------------------------------------------------------------------------------------------------------------------------
+| Location:         Miami                                                                                                |
+ ------------------------------------------------------------------------------------------------------------------------
+| Coaches:          | Name                   | Position               | From                   | To                      |
+|                    ----------------------------------------------------------------------------------------------------
+|                   | Erik Spoelstra         | Head coach             | 2008-04                | now                     |
+ ------------------------------------------------------------------------------------------------------------------------
+| PlayersRoster:    | Name              | Position          | Number            | From              | To                 |
+|                    ----------------------------------------------------------------------------------------------------
+|                   | Shaquille O'Neal  | Center            | 32                | 2004-07-14        | 2008-02            |
+|                   | Earl Barron       |                   |                   | 2005              | 2008               |
+|                   | Michael Beasley   | Small forward, ...| 30                | 2008-06-26        | 2010-07-12         |
+|                   | Dorell Wright     |                   |                   | 2004              | 2010-07-13         |
+|                   | Jamaal Magloire   |                   |                   | 2008-08-30        | 2011-12-09         |
+|                   | Carlos Arroyo     |                   |                   | 2009-10-11        | 2011-03-01         |
+|                   | Quentin Richard...|                   |                   | 2009              | 2010-07-13         |
+|                   | Shavlik Randolph  | Power forward     | 42                | 2009              | 2010               |
+|                   | Yakhouba Diawara  |                   |                   | 2008-08-07        | 2010-07            |
+|                   | Ronny Turiaf      |                   |                   | 2012-03-21        | 2012-07-27         |
+ ------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,53 @@
+ ------------------------------------------------------------------------------------------------------------------------
+|                                                     New York Knicks(Sports Team)                                       |
+ ------------------------------------------------------------------------------------------------------------------------
+| Name:             New York Knicks                                                                                      |
+ ------------------------------------------------------------------------------------------------------------------------
+| Description:      The New York Knickerbockers, commonly referred to as the Knicks, are a professional basketball team  |
+|                   based in New York City, New York. The Knicks are part of the Atlantic Division of the Eastern Confer |
+|                   ence in the National Basketball Association. The team, established by Ned Irish in 1946, was one of  |
+|                   the founding members of the Basketball Association of America, which became the NBA after merging wi |
+|                   th the rival National Basketball League in 1949. The team plays at Madison Square Garden, above Penn |
+|                   sylvania Station in the borough of Manhattan, and along with the Boston Celtics is one of only two N |
+|                   BA teams still located in its original city.The Knicks were successful during their early years and  |
+|                   were constant playoff contenders under the franchise's first head coach Joe Lapchick. Beginning in 1 |
+|                   950, the Knicks made three consecutive appearances in the NBA Finals, all of which were losing effor |
+|                   ts. Lapchick resigned in 1956 and the team subsequently began to falter. It was not until the late 1 |
+|                   960s when Red Holzman became head coach that the Knicks began to regain their former dominance. Holz |
+|                   man successfully guided the Knicks to two championship titles in 1970 and 1973                       |
+ ------------------------------------------------------------------------------------------------------------------------
+| Championship:     1973 NBA Finals                                                                                      |
+|                   1970 NBA Finals                                                                                      |
+ ------------------------------------------------------------------------------------------------------------------------
+| Official Website: http://www.nba.com/knicks/                                                                           |
+|                   http://knicksnow.com/                                                                                |
+ ------------------------------------------------------------------------------------------------------------------------
+| Sport:            Basketball                                                                                           |
+ ------------------------------------------------------------------------------------------------------------------------
+| Founded:          1946                                                                                                 |
+ ------------------------------------------------------------------------------------------------------------------------
+| Arena:            Madison Square Garden                                                                                |
+ ------------------------------------------------------------------------------------------------------------------------
+| League:           National Basketball Association                                                                      |
+ ------------------------------------------------------------------------------------------------------------------------
+| Location:         New York City                                                                                        |
+ ------------------------------------------------------------------------------------------------------------------------
+| Coaches:          | Name                   | Position               | From                   | To                      |
+|                    ----------------------------------------------------------------------------------------------------
+|                   | Mike Woodson           | Head coach             | 2011-08-29             | 2014-04-21              |
+|                   | Derek Fisher           | Head coach             | 2014                   | now                     |
+|                   | Kurt Rambis            | Assistant Coach        | 2014                   | now                     |
+ ------------------------------------------------------------------------------------------------------------------------
+| PlayersRoster:    | Name              | Position          | Number            | From              | To                 |
+|                    ----------------------------------------------------------------------------------------------------
+|                   | Jamal Crawford    | Point guard, Sh...| 11                | 2004              | 2008               |
+|                   | Bill Bradley      |                   |                   | 1967              | 1977               |
+|                   | Patrick Ewing     | Center, Power f...| 33                | 1985              | 2000               |
+|                   | Marcus Camby      | Center, Power f...| 23                | 1998              | 2002               |
+|                   | Stephon Marbury   |                   |                   | 2003              | 2008               |
+|                   | Eddy Curry        |                   |                   | 2005              | 2011               |
+|                   | Chris Duhon       |                   |                   | 2008              | 2010               |
+|                   | Quentin Richard...|                   |                   | 2005              | 2009               |
+|                   | Roger Mason, Jr.  |                   |                   | 2010              | 2011               |
+|                   | Ronny Turiaf      |                   |                   | 2010              | 2011               |
+ ------------------------------------------------------------------------------------------------------------------------

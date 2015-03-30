@@ -1,0 +1,36 @@
+ ------------------------------------------------------------------------------------------------------------------------
+|                                           National Basketball Association(League)                                       |
+ ------------------------------------------------------------------------------------------------------------------------
+| Name:             National Basketball Association                                                                      |
+ ------------------------------------------------------------------------------------------------------------------------
+| Description:      The National Basketball Association is the pre-eminent men's professional basketball league in North |
+|                    America, and is widely considered to be the premier men's professional basketball league in the wor |
+|                   ld. It has 30 franchised member clubs, and is an active member of USA Basketball, which is recognize |
+|                   d by FIBA as the national governing body for basketball in the United States. The NBA is one of the  |
+|                   four major North American professional sports leagues. NBA players are the world's best paid sportsm |
+|                   en, by average annual salary per player.The league was founded in New York City on June 6, 1946, as  |
+|                   the Basketball Association of America. The league adopted the name National Basketball Association o |
+|                   n August 3, 1949, after merging with its rival National Basketball League. The league's several inte |
+|                   rnational as well as individual team offices are directed out of its head offices located in the Oly |
+|                   mpic Tower at 645 Fifth Avenue in New York City. NBA Entertainment and NBA TV studios are directed o |
+|                   ut of offices located in Secaucus, New Jersey                                                        |
+ ------------------------------------------------------------------------------------------------------------------------
+| Championship:     The NBA Finals                                                                                       |
+ ------------------------------------------------------------------------------------------------------------------------
+| Sport:            Basketball                                                                                           |
+ ------------------------------------------------------------------------------------------------------------------------
+| Slogan:           Where Amazing Happens                                                                                |
+ ------------------------------------------------------------------------------------------------------------------------
+| Official Website: http://www.nba.com/                                                                                  |
+ ------------------------------------------------------------------------------------------------------------------------
+| Teams:            Detroit Pistons                                                                                      |
+|                   Golden State Warriors                                                                                |
+|                   Los Angeles Lakers                                                                                   |
+|                   Cleveland Cavaliers                                                                                  |
+|                   Indiana Pacers                                                                                       |
+|                   Utah Jazz                                                                                            |
+|                   Orlando Magic                                                                                        |
+|                   Phoenix Suns                                                                                         |
+|                   Charlotte Hornets                                                                                    |
+|                   Houston Rockets                                                                                      |
+ ------------------------------------------------------------------------------------------------------------------------

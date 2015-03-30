@@ -1,0 +1,49 @@
+ ------------------------------------------------------------------------------------------------------------------------
+|                                           National Football League(League,Author)                                       |
+ ------------------------------------------------------------------------------------------------------------------------
+| Name:             National Football League                                                                             |
+ ------------------------------------------------------------------------------------------------------------------------
+| Description:      The National Football League is a professional American football league that constitutes one of the  |
+|                   four major professional sports leagues in North America. It is composed of 32 teams divided equally  |
+|                   between the National Football Conference and the American Football Conference. The highest professio |
+|                   nal level of the sport in the world, the NFL runs a 17-week regular season from the week after Labor |
+|                    Day to the week after Christmas, with each team playing sixteen games and having one bye week each  |
+|                   season. Out of the league's 32 teams, six from each conference compete in the NFL playoffs, a single |
+|                   -elimination tournament culminating in the Super Bowl, played between the champions of the NFC and A |
+|                   FC. The champions of the Super Bowl are awarded the Vince Lombardi Trophy. Various other awards exis |
+|                   t to recognize individual players and coaches. Most games are played on Sunday afternoons; some game |
+|                   s are also played on Mondays and Thursdays during the regular season. There are games on Saturdays d |
+|                   uring the first two playoff weekends. Sometimes, there are also Saturday games during the last few w |
+|                   eeks of the regular season                                                                           |
+ ------------------------------------------------------------------------------------------------------------------------
+| Championship:     Super Bowl                                                                                           |
+ ------------------------------------------------------------------------------------------------------------------------
+| Sport:            American football                                                                                    |
+ ------------------------------------------------------------------------------------------------------------------------
+| Official Website: http://www.nfl.com/                                                                                  |
+ ------------------------------------------------------------------------------------------------------------------------
+| Teams:            Detroit Lions                                                                                        |
+|                   Carolina Panthers                                                                                    |
+|                   Arizona Cardinals                                                                                    |
+|                   Baltimore Ravens                                                                                     |
+|                   Jacksonville Jaguars                                                                                 |
+|                   Kansas City Chiefs                                                                                   |
+|                   Denver Broncos                                                                                       |
+|                   New York Jets                                                                                        |
+|                   New York Giants                                                                                      |
+|                   Oakland Raiders                                                                                      |
+ ------------------------------------------------------------------------------------------------------------------------
+| Books:            The Official 2003 NFL Record & Fact Book                                                             |
+|                   The NFL Media Information Book, 1983                                                                 |
+|                   NFL Record and Roster Manual, 1942                                                                   |
+|                   Pocket Almanac 1994                                                                                  |
+|                   NFL 1999 Championship Spec Mkt                                                                       |
+|                   2008 NFL Record & Fact Book                                                                          |
+ ------------------------------------------------------------------------------------------------------------------------
+| Books About:      Tailgating, Sacks, and Salary Caps: How the NFL Became the Most Successful Sports League in History  |
+|                   North Dallas Forty                                                                                   |
+|                   Inside the Helmet: A Player's-Eye View of the NFL                                                    |
+|                   The Final Season: My Last Year as Head Coach in the NFL                                              |
+|                   Patriot Reign                                                                                        |
+|                   League of Denial                                                                                     |
+ ------------------------------------------------------------------------------------------------------------------------
