@@ -68,8 +68,8 @@ public class FreeBase {
         map = new LinkedHashMap<String, String>();
         map.put("title","Actor");
         map.put("/film/actor/film,/film/performance/film@/film/performance/character","Films");
-        map.put("Films"," Character:, Film Name:");
         mapEntities.put("/film/actor",map);
+        mapEntities.put("/tv/tv_actor",map);
 
         ///tv/tv_actor
 
@@ -108,7 +108,9 @@ public class FreeBase {
         formatResults.put("PlayersRoster","Name:,Position:,Number:,From:,To:now");
         formatResults.put("Leadership"," Organization:, Role :, Title:, From:, To:now");
         formatResults.put("Board Member", " Organization:, Role :, Title:, From:, To:now");
+        formatResults.put("Films", " Film Name:, Character:");
         //"Spouses"," :, ( :, - : now , ) @ :"
+        // map.put("Films","");
         formatResults.put("Spouses", "Name:,From:,To:now,Place:");
     }
 
