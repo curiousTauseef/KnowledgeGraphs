@@ -26,7 +26,7 @@ where:
 
 d) 
 ############ Part 1 #############
-
+FreeBase.java is responsible for handling the first part of the assignmnent i.e. Preparaing an InfoBox for a user query. The query is first URL Encoded and 20 entities corresponding to the query are extracted. Using their 'mid' values we extract topic for each of these entities and match against the expected Entity Set (Person, Business Person, Author, Actor, Sports Team & Laegue). The first entity that matches any of these is chosen for display. For each Entity-type properties of interest are extracted and displayed in an tabular fashion for easy comprehension. An entity can also match multiple entity-types in case of which we extract information for each entity-type and display them. We also handle cases where an end date of a continuing event is not provided and it is displayed as now.
 
 ############ Part 2 #############
 The code for Part 2 (Question answering) resides in the Question class. The main function of the class is called by KnowledgeGraph.main() with the correct arguments.
