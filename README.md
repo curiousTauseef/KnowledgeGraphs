@@ -8,11 +8,14 @@ b) List of files
 	-FreeBase.java
 	-README.md
 	-json-path-0.5.3.jar
+	-commons-codec-1.9.jar
 	-google-http-client-1.17.0-rc.jar
+	-google-api-client-1.4.0-alpha.jar
 	-google-http-client-1.17.0-rc-sources.jar  
 	-json-simple-1-1.1.1.jar  
 	-commons-lang3-3.3.1.jar
 	-run.sh
+	-/transcripts
 
 c) Ensure that you are in /KnowledgeGraph directory. To execute the code:
 	./run.sh -key <Freebase API key> -q <"query"> -t <infobox|question>
